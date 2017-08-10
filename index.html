@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>mapa/clima</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+
+	<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>	
+<div class="container">
+	<div class="row">
+		<div class="col-md-8" id='mapa-box'>
+			<div id="map">
+				
+			</div>
+		
+		</div>
+
+
+		<div class="col-md-4">
+		<h1>Clima App</h1>
+		<select class="form-control">
+		  <option value="none">Selecciona una ciudad...</option>
+		  <option value="antofa">Antofagasta, Chile</option>
+		  <option value="serena">La Serena, Chile</option>
+		  <option value="stgo">Santiago, Chile</option>
+		  <option value="conce">Concepcion, Chile</option>
+		  <option value="valdi">Valdivia, Chile</option>
+		</select>
+
+		<h3 id="resumen"></h3>
+		<img class='img-responsive' id='icono' src="">
+		</div>
+	</div>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD51nTWj9Th3LQ3fR4CaxslyeaZtpHacL0&callback=initMap"
+    async defer></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+
+
+</html>

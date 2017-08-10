@@ -1,0 +1,35 @@
+#map{
+	height: 100vh;
+	border-right: 30px solid white;
+	border-left: 30px solid white;
+	border-top: 15px solid white;
+	border-bottom: 15px solid white;
+	border-radius: 15px
+
+
+
+}
+
+body{
+	font-family: 'Pontano Sans', sans-serif;
+	background-image: url("http://wallpapercave.com/wp/dPc5SsA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+#resumen{
+	font-size: 40px;
+	color:white;
+	font-style:italic;
+}
+
+h1{
+	font-size:80px;
+	color:black;
+}
+
+#mapa-box{
+
+	
+}
